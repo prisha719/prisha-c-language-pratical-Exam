@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-float findAverage(int rows, int cols, int arr[rows][cols])
+float Average(int rows, int coloumn, int arr[rows][coloumn])
 {
     int sum = 0;
-    int total = rows * cols;
+    int total = rows * coloumn;
 
     for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < cols; j++)
+        for (int j = 0; j < coloumn; j++)
         {
           
             sum += arr[i][j];
